@@ -12,19 +12,6 @@
 
 ---
 
-## Screenshots
-
-### Login — Split-panel with JWT authentication
-![Login](screenshots/01-login.svg)
-
-### Parent Dashboard — Child XP cards and API overview
-![Dashboard](screenshots/02-dashboard.svg)
-
-### Scenario Player — Branching DAG with NPC dialogue
-![Scenario Player](screenshots/03-scenario-player.svg)
-
----
-
 ## What is Skilio?
 
 Traditional child safety education is passive — children memorise rules but never practice decisions. Skilio replaces that with a **scenario engine**: a directed acyclic graph (DAG) of story nodes where children navigate realistic safety situations, make choices, and see consequences. Parents get a full audit trail of every decision.
