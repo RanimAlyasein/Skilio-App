@@ -1,0 +1,78 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" font-family="Arial,sans-serif">
+  <rect width="1280" height="800" fill="#f8f7ff"/>
+  <rect width="230" height="800" fill="#0d0a1a"/>
+  <rect x="16" y="16" width="118" height="34" rx="8" fill="#0d0a1a" stroke="#7c3aed" stroke-width="1.2" opacity=".7"/>
+  <text x="75" y="39" text-anchor="middle" font-size="18" font-weight="900" fill="#c084fc">Skilio</text>
+  <text x="16" y="62" font-size="9" font-weight="700" fill="rgba(255,255,255,0.28)" letter-spacing="2">PARENT PORTAL</text>
+  <rect x="8"  y="76"  width="214" height="38" rx="10" fill="rgba(124,58,237,0.25)" stroke="rgba(124,58,237,0.28)" stroke-width="1"/>
+  <text x="36" y="100" font-size="13" font-weight="700" fill="#c084fc">⬡  Dashboard</text>
+  <text x="36" y="132" font-size="13" font-weight="700" fill="rgba(255,255,255,0.4)">◎  My Children</text>
+  <text x="36" y="164" font-size="13" font-weight="700" fill="rgba(255,255,255,0.4)">◈  Worlds</text>
+  <text x="258" y="66" font-size="11" font-weight="700" fill="#8b84aa" letter-spacing="1">GOOD MORNING</text>
+  <text x="258" y="98" font-size="28" font-weight="900" fill="#1a1035">Your children</text>
+  <rect x="258" y="118" width="278" height="182" rx="16" fill="white" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+  <circle cx="298" cy="160" r="26" fill="rgba(124,58,237,0.16)"/>
+  <text x="298" y="167" text-anchor="middle" font-size="18" font-weight="800" fill="#a855f7">E</text>
+  <text x="336" y="153" font-size="14" font-weight="800" fill="#1a1035">Elif</text>
+  <text x="336" y="171" font-size="11" fill="#8b84aa">Age 8</text>
+  <rect x="474" y="147" width="56" height="22" rx="11" fill="rgba(245,158,11,0.1)" stroke="rgba(245,158,11,0.22)" stroke-width="1"/>
+  <text x="502" y="163" text-anchor="middle" font-size="11" font-weight="700" fill="#d97706">⭐ 120 XP</text>
+  <rect x="274" y="198" width="246" height="8" rx="4" fill="rgba(124,58,237,0.1)"/>
+  <rect x="274" y="198" width="59"  height="8" rx="4" fill="#fbbf24"/>
+  <rect x="274" y="218" width="60" height="20" rx="10" fill="rgba(129,140,248,0.12)" stroke="rgba(129,140,248,0.22)" stroke-width="1"/>
+  <text x="304" y="233" text-anchor="middle" font-size="10" font-weight="700" fill="#818cf8">🌌 2/2</text>
+  <rect x="342" y="218" width="60" height="20" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="372" y="233" text-anchor="middle" font-size="10" font-weight="700" fill="#8b84aa">🌊 0/2</text>
+  <rect x="410" y="218" width="60" height="20" rx="10" fill="rgba(74,222,128,0.09)" stroke="rgba(74,222,128,0.16)" stroke-width="1"/>
+  <text x="440" y="233" text-anchor="middle" font-size="10" font-weight="700" fill="#4ade80">🌲 1/2</text>
+  <rect x="274" y="252" width="84" height="22" rx="11" fill="rgba(124,58,237,0.08)" stroke="rgba(124,58,237,0.22)" stroke-width="1"/>
+  <text x="316" y="268" text-anchor="middle" font-size="11" font-weight="700" fill="#7c3aed">View detail</text>
+  <rect x="558" y="118" width="278" height="182" rx="16" fill="white" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+  <circle cx="598" cy="160" r="26" fill="rgba(99,102,241,0.16)"/>
+  <text x="598" y="167" text-anchor="middle" font-size="18" font-weight="800" fill="#6366f1">K</text>
+  <text x="636" y="153" font-size="14" font-weight="800" fill="#1a1035">Kerem</text>
+  <text x="636" y="171" font-size="11" fill="#8b84aa">Age 11</text>
+  <rect x="774" y="147" width="56" height="22" rx="11" fill="rgba(245,158,11,0.1)" stroke="rgba(245,158,11,0.22)" stroke-width="1"/>
+  <text x="802" y="163" text-anchor="middle" font-size="11" font-weight="700" fill="#d97706">⭐ 0 XP</text>
+  <rect x="574" y="198" width="246" height="8" rx="4" fill="rgba(124,58,237,0.1)"/>
+  <rect x="574" y="252" width="84" height="22" rx="11" fill="rgba(124,58,237,0.08)" stroke="rgba(124,58,237,0.22)" stroke-width="1"/>
+  <text x="616" y="268" text-anchor="middle" font-size="11" font-weight="700" fill="#7c3aed">View detail</text>
+  <rect x="858" y="118" width="278" height="182" rx="16" fill="white" stroke-dasharray="6,4" stroke="rgba(124,58,237,0.2)" stroke-width="2"/>
+  <text x="997" y="218" text-anchor="middle" font-size="24" fill="#8b84aa">+</text>
+  <text x="997" y="252" text-anchor="middle" font-size="12" font-weight="700" fill="#8b84aa">Add child</text>
+  <text x="258" y="340" font-size="17" font-weight="900" fill="#1a1035">Quick access</text>
+  <rect x="258" y="354" width="420" height="62" rx="16" fill="white" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+  <text x="296" y="395" font-size="20">◈</text>
+  <text x="324" y="381" font-size="13" font-weight="700" fill="#1a1035">Browse worlds</text>
+  <text x="324" y="399" font-size="11" fill="#8b84aa">See all adventure worlds</text>
+  <rect x="698" y="354" width="420" height="62" rx="16" fill="white" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+  <text x="736" y="395" font-size="20">🚀</text>
+  <text x="764" y="381" font-size="13" font-weight="700" fill="#1a1035">Kids adventure</text>
+  <text x="764" y="399" font-size="11" fill="#8b84aa">Switch to kids mode</text>
+  <text x="258" y="460" font-size="14" font-weight="700" fill="#1a1035">API: 24 endpoints · 12 entities · JWT + bcrypt · SQLite/MySQL/PostgreSQL</text>
+  <rect x="258" y="474" width="860" height="276" rx="12" fill="white" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+  <rect x="268" y="484" width="48"  height="22" rx="4" fill="rgba(34,197,94,0.18)"/>
+  <text x="292" y="500" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#22c55e">GET</text>
+  <text x="328" y="500" font-family="monospace" font-size="11" fill="#1a1035">/api/children/</text>
+  <text x="560" y="500" font-size="11" fill="#8b84aa">List children scoped to authenticated parent (ownership guard)</text>
+  <rect x="268" y="512" width="52"  height="22" rx="4" fill="rgba(59,130,246,0.18)"/>
+  <text x="294" y="528" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6">POST</text>
+  <text x="332" y="528" font-family="monospace" font-size="11" fill="#1a1035">/api/scenarios/attempts</text>
+  <text x="560" y="528" font-size="11" fill="#8b84aa">Start or resume scenario — idempotent, returns current node</text>
+  <rect x="268" y="540" width="52"  height="22" rx="4" fill="rgba(59,130,246,0.18)"/>
+  <text x="294" y="556" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6">POST</text>
+  <text x="332" y="556" font-family="monospace" font-size="11" fill="#1a1035">/api/scenarios/attempts/{id}/choose</text>
+  <text x="560" y="556" font-size="11" fill="#8b84aa">Submit choice → advance DAG → next node + feedback</text>
+  <rect x="268" y="568" width="48"  height="22" rx="4" fill="rgba(34,197,94,0.18)"/>
+  <text x="292" y="584" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#22c55e">GET</text>
+  <text x="328" y="584" font-family="monospace" font-size="11" fill="#1a1035">/api/children/{id}/summary</text>
+  <text x="560" y="584" font-size="11" fill="#8b84aa">XP + module progress + badges in one request</text>
+  <rect x="268" y="596" width="52"  height="22" rx="4" fill="rgba(59,130,246,0.18)"/>
+  <text x="294" y="612" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6">POST</text>
+  <text x="332" y="612" font-family="monospace" font-size="11" fill="#1a1035">/api/auth/refresh</text>
+  <text x="560" y="612" font-size="11" fill="#8b84aa">Single-use token rotation · replay = all tokens wiped</text>
+  <text x="268" y="650" font-size="11" fill="#8b84aa">Entities: User · Child · SkillModule · Lesson · ScenarioNode · ScenarioChoice · ScenarioAttempt</text>
+  <text x="268" y="668" font-size="11" fill="#8b84aa">           ScenarioAttemptChoice · Progress · Badge · BadgeAward · RefreshToken  (12 total)</text>
+  <text x="268" y="700" font-size="11" fill="#7c3aed" font-weight="700">Security: bcrypt · JWT HS256 · httpOnly cookie · SHA-256 token hash · ownership guard · rate limiting · content-length guard</text>
+  <text x="640" y="790" text-anchor="middle" font-size="11" fill="#8b84aa">Fig 2 — Parent dashboard · child XP cards · API route overview · 12-entity data model · security layers</text>
+</svg>

@@ -1,0 +1,80 @@
+version: "3.9"
+
+services:
+
+  # ── MySQL database ──────────────────────────────────────────────────────────
+  db:
+    image: mysql:8.0
+    container_name: skilio_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+      MYSQL_DATABASE:      skilio_db
+      MYSQL_USER:          skilio
+      MYSQL_PASSWORD:      ${MYSQL_PASSWORD:-skiliopass}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost",
+             "-u", "skilio", "-p${MYSQL_PASSWORD:-skiliopass}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - skilio
+
+  # ── FastAPI backend ─────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: skilio_backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: mysql+pymysql://skilio:${MYSQL_PASSWORD:-skiliopass}@db:3306/skilio_db
+      SECRET_KEY:   ${SECRET_KEY:-change_this_in_production_must_be_32_chars_min}
+      DEBUG:        ${DEBUG:-false}
+      ALLOWED_ORIGINS: "http://localhost:5173,http://localhost:80,http://localhost"
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app          # mount source for development hot-reload
+    command: >
+      sh -c "
+        echo 'Waiting for DB...' &&
+        python -c 'from app.core.database import check_db_connection; check_db_connection()' &&
+        echo 'Running migrations...' &&
+        alembic upgrade head &&
+        echo 'Seeding database...' &&
+        python scripts/seed.py &&
+        echo 'Starting server...' &&
+        uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+      "
+    networks:
+      - skilio
+
+  # ── React frontend ──────────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ../skilio-frontend
+      dockerfile: Dockerfile
+    container_name: skilio_frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+    networks:
+      - skilio
+
+volumes:
+  mysql_data:
+
+networks:
+  skilio:
+    driver: bridge
