@@ -18,7 +18,6 @@
 
 - [What is Skilio?](#what-is-skilio)
 - [The Three Worlds](#the-three-worlds)
-- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Data Model](#data-model--13-entities)
@@ -55,19 +54,6 @@ Traditional child safety education is **passive** — children memorise rules bu
 | Safe routes vs risky shortcuts | Stranger danger, secrets, asking for help | Trusted adults, fire safety, instinct |
 
 Each world contains age-appropriate scenarios designed for children aged **4–17**, grouped into skill modules with structured lessons.
-
----
-
-## Screenshots
-
-### Login — Split-panel with JWT authentication
-![Login](skilio-backend/screenshots/01-login.svg)
-
-### Parent Dashboard — Child XP cards and API overview
-![Dashboard](skilio-backend/screenshots/02-dashboard.svg)
-
-### Scenario Player — Branching DAG with NPC dialogue
-![Scenario Player](skilio-backend/screenshots/03-scenario-player.svg)
 
 ---
 
