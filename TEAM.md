@@ -94,4 +94,4 @@ Skilio was built by a cross-functional team that moved from concept to working p
 | **Bochra** | Backend · Operations · Presentation | Founding / Execution Lead |
 | **Imadeddine** | Backend API · Validation | Engineering |
 | **Mazid** | Database · Entity Design | Engineering |
-| **Mansour** | Documentation · GitHub | Operations |
+| **Mohammed** | Documentation · GitHub | Operations |
